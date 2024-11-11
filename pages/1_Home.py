@@ -5,8 +5,6 @@ import data.generate_dataset as gen
 
 load_dotenv()
 
-st.write(f'Welcome *{st.session_state["name"]}*')
-
 # Header and description
 st.image("data/CofanoLogo.png")
 # Header
