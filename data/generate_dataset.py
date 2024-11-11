@@ -19,7 +19,7 @@ def generate_container_data(proportions, total_teu, sea_terminals, inland_termin
     }
 
     # Adjust for any rounding issues to ensure total TEU is 5000
-    while sum([k * v for k, v in num_containers.items()]) != total_teu:
+    while sum([k * v for k, v in num_containers.items()]) <= total_teu:
         num_containers[1] += 1
 
     containers = []
@@ -112,7 +112,7 @@ def generate_container_data(proportions, total_teu, sea_terminals, inland_termin
             l = l + 1
 
     container_df = pd.DataFrame(container_data)
-    print(container_df)
+
     # Connect to the database (or create it if it doesn't exist)
     conn = sqlite3.connect(r"data\demo.db")
 
