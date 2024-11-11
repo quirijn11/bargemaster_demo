@@ -1,0 +1,20 @@
+credentials:
+  usernames:
+    qschevenhoven:
+      email: quirijn.schevenhoven@cofano.nl
+      failed_login_attempts: 0
+      logged_in: false
+      name: Quirijn Schevenhoven
+      password: $2y$10$t5raeoU9hNrP9kgzEpNwgewRpdx2uYwmTYcNBBX0rds0CHS3dy5s6
+    mhuijsman:
+      email: marco.huijsman@cofano.nl
+      failed_login_attempts: 0
+      logged_in: false
+      name: Marco Huijsman
+      password: $2y$10$YjY7ooWRKe2tMq7bQfaLLOs0LOYgh.s4TLoYC.0OWpbm5E1Y3mNwu
+    flandheer:
+      email: frank.landheer@cofano.nl
+      failed_login_attempts: 0
+      logged_in: false
+      name: Frank Landheer
+      password: $2y$10$eCcU4dj3ck1oR1s7xnbnLexiAa0LBDcSN6V7OGeNl4JhA/SOndetW
