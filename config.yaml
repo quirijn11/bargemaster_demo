@@ -18,3 +18,9 @@ credentials:
       logged_in: false
       name: Frank Landheer
       password: $2y$10$eCcU4dj3ck1oR1s7xnbnLexiAa0LBDcSN6V7OGeNl4JhA/SOndetW
+    rwesterduin:
+      email: roland.westerduin@cofano.nl
+      failed_login_attempts: 0
+      logged_in: false
+      name: Roland Westerduin
+      password: $2y$10$5XhEBXGJtpG6N7lk.xAby.w4208EVRkaZwmlkFPeEqgxko0.cLSSW
